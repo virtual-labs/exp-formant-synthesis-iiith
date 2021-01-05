@@ -2,7 +2,7 @@
 
 The objective of the experiment is to synthesize a vowel given its first three formant frequencies \(F_1\), \(F_2\), and \(F_3\), the fundamental period \(T_0\), and the sampling frequency \(F_s\) (or the equivalent sampling interval \(T=1/F_s\)). The system used in the synthesis of vowels is an all pole filter as shown in Figure 1.
 
-<center><img src="images/block.png"> <br></p> </center>
+<center><img src="images/block.png"></center>
 
 **Figure 1:** All-pole filter.
 
@@ -52,24 +52,24 @@ The vowel sound is synthesized by exciting the combined all-pole system with the
  - Figures 3, 4, and 5 show the synthesized signals for the sound unit /a/ and the corresponding spectrograms for excitations with a period of half the pitch period, the given pitch period, and twice the pitch period, respectively.
 
 The excitation and the response of the all-pole filter for impulse sequence excitation with a period of 3.75ms, 7.5ms and 15ms respectively.
-<center><img src="images/lab4.png"> <br></p> </center>
+<center><img src="images/lab4.png"></center>
 
 **Figure 2:** The excitation and the response of the all-pole filter for impulse sequence excitation with a period of 3.75ms, 7.5ms and 15ms respectively.
 
 
-<center><img src="images/hp_spec.png"> <br></p> </center>
+<center><img src="images/hp_spec.png"></center>
 
 **Figure 3:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 3.75 ms.
 
 
-<center><img src="images/p_spec.png"> <br></p> </center>
+<center><img src="images/p_spec.png"></center>
 
 **Figure 4:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 7.5 ms.
 
 
 
 
-<center><img src="images/tp_spec.png"> <br></p> </center>
+<center><img src="images/tp_spec.png"></center>
 
 **Figure 5:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 15 ms.
 
