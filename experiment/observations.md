@@ -1,5 +1,3 @@
-### Procedure
-
 - There is a direct correspondence between a set of formant frequencies and a vowel.
 
 - The synthesized vowel gives a perception of the expected vowel, except for the loss of naturalness.

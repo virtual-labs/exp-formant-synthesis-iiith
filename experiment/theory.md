@@ -1,5 +1,3 @@
-### Link your theory in here
-
 Synthesizing vowels
 
 The objective of the experiment is to synthesize a vowel given its first three formant frequencies \(F_1\), \(F_2\), and \(F_3\), the fundamental period \(T_0\), and the sampling frequency \(F_s\) (or the equivalent sampling interval \(T=1/F_s\)). The system used in the synthesis of vowels is an all pole filter as shown in Figure 1.

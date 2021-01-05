@@ -1,5 +1,3 @@
-### Procedure
-
  The experiment section has three vertical bars on the left pane for choosing the formant frequencies. The center pane has a vowel chart shown on the \(F_1-F_2\) plane with the IPA symbols of the vowels shown. The right pane has a vertical bar for choosing the fundamental frequency \(F_0 = \frac{1}{T_0}\). The bottom pane displays the waveform of the vowel synthesized using the above chosen parameters using an all-pole source-system model.
 
    - Click on the vowel of your choice in the vowel chart in the central pane.

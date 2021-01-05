@@ -1,3 +1,1 @@
-## Experiment name
-
-Formant Synthesis
+## Formant Synthesis
