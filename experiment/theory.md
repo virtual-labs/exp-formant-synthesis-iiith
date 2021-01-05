@@ -1,4 +1,4 @@
-Synthesizing vowels
+**Synthesizing vowels**
 
 The objective of the experiment is to synthesize a vowel given its first three formant frequencies \(F_1\), \(F_2\), and \(F_3\), the fundamental period \(T_0\), and the sampling frequency \(F_s\) (or the equivalent sampling interval \(T=1/F_s\)). The system used in the synthesis of vowels is an all pole filter as shown in Figure 1.
 
@@ -23,17 +23,21 @@ The vowel sound is synthesized by exciting the combined all-pole system with the
  - For each (Fi , Bi) system parameters are computed using Eq. (2), where the sampling interval (1/Fs) used is 100*10-6 sec, for a sampling rate of 10 kHz.
 
  - Substituting F1 = 560 Hz Hz, B1 = 56 Hz Hz in Eq. (1) we get
+
     $$ H_1(z) = \frac{1}{ 1 - 1.8447*z^{-1} + 0.9654* z^{-2}} \qquad (3) $$
 
  - Substituting F2= 1180 Hz Hz, B2= 118 Hz Hz in Eq. (1) we get
+    
     $$ H_2(z) = \frac{1}{ 1 - 1.4213*z^{-1} + 0.9285* z^{-2}} \qquad (4) $$
 
  - substituting F3= 2480 Hz Hz, B3= 248 Hz Hz in Eq. (1) we get
+    
     $$ H_3(z) = \frac{1}{ 1 - 0.0232*z^{-1} + 0.8557* z^{-2}} \qquad (5) $$
 
  - The system transfer function H(z) is given by, H(z)=H1(z) * H2(z) *H3(z)
 
  - Substituting for H1(z), H2(z), H3(z) we get
+    
     $$ H(z)=\frac{1}{1+a_1z^{-1}+a_2z^{-2}+a_3z^{-3}+a_4z^{-4}+a_5z^{-5}+a_6z^{-6}}. \qquad (6) $$
 
  - From Eq. (6) we have \( \{b_k\}\)=[1] and \( \{a_k\}=\)[1, -3.2892, 5.472, -5.9844, 4.8321, -2.6606, 0.7670]
@@ -50,18 +54,18 @@ The excitation and the response of the all-pole filter for impulse sequence exci
 <center><img src="images/lab4.png"> <br></p> </center>
 **Figure 2:** The excitation and the response of the all-pole filter for impulse sequence excitation with a period of 3.75ms, 7.5ms and 15ms respectively.
 
-Figure 3: Waveform of the the synthesized vowel /a/ and its spectrogram for excitation at half the pitch period.
+
 <center><img src="images/hp_spec.png"> <br></p> </center>
 **Figure 3:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 3.75 ms.
 
-Figure 4: Waveform of the the synthesized vowel /a/ and its spectrogram for excitation at the pitch period.
+
 <center><img src="images/p_spec.png"> <br></p> </center>
 
 **Figure 4:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 7.5 ms.
 
 
 
-Figure 5: Waveform of the the synthesized vowel /a/ and its spectrogram for excitation at twice the pitch period.
+
 <center><img src="images/tp_spec.png"> <br></p> </center>
 
 **Figure 5:** Waveform of the the synthesized vowel /a/ and its spectrogram obtained with an impulse sequence excitation of pitch period 15 ms.
