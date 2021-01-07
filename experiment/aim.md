@@ -8,7 +8,7 @@ The objective of this experiment is to study the relation between formant freque
 
    - Browser plugins: Oracle/Sun Java JRE and plugin Version-6
 
-[Install Java Plugin to run the Simulation0(http://ssp-iiith.vlabs.ac.in/documents/installJava.html)
+[Install Java Plugin to run the Simulation0](http://ssp-iiith.vlabs.ac.in/documents/installJava.html)
 
 
 **Hardware pre-requisites (minimum)**
